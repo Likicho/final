@@ -1,0 +1,345 @@
+/* header style */
+.background-image {
+	height: 500px;
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightsteelblue;
+    padding: 30px;
+    background-position: center;
+    background-image:url(../image/dubai.jpg)
+
+}
+.header-block {
+    width: 100%;
+    height: 72px;
+    position: absolute;
+	display: flex;
+    justify-content: space-between;
+	top: 10px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 7;
+    align-items: center;
+}
+.navigation {
+	display: inline-block; 
+    /* vertical-align: middle; */
+}
+.nav-li {
+	display: inline-block;
+	margin-right: 22px;
+}
+.nav-a {
+	font-size: 20px;
+	color: white;
+    text-transform: uppercase;
+}
+.div-logo{
+    display: flex;
+    font-size: 30px
+}
+
+.travellovers{
+    text-transform: capitalize;
+    font-family: dancing Script, cursive;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 10px;
+    color:white;
+    transform:rotate(-8deg);
+}
+.toggle-button{
+    display: flex;
+    color: white;
+    padding-right: 150px;
+    top: 10px;
+}
+/* section1 */
+.section-bg1 {
+    background-image: url(../image/NoPath\ -\ Copy\ \(30\).jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-size: 42px;
+    color:sienna;
+    padding: 30PX;
+}
+.conteiner{
+    max-width:1170px;
+    width: 100%;
+    margin:0 auto;
+}
+.left-block,
+.right-block {
+    max-width: 570px;
+    width: 100%;
+    height: 320px;
+
+}
+
+.video-wraper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.video-iframe{
+    width: 100%;
+    height: 100%;
+}
+.block1{
+    width: 100px;
+    height: 700px;
+    background-color:sienna; 
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+    flex-direction:column;
+    /* justify-content: space-between; */
+}
+.box-wraper{
+    position: relative;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    position: absolute;
+    width: 40px;
+    height: 60px;
+    background-color: sienna;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h2 {
+    font-size: 22px;
+    color: chocolate ;
+
+}
+.block1 p {
+    width:700px
+
+}
+.image{
+    display: block;
+}
+
+
+
+
+.nav-ul {
+
+    margin-left: 100px;
+    padding-top: 25px;
+	display: flex;
+    
+}
+.nav-li {
+	
+	font-size: 20px;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    font-weight: normal;
+    color: white;
+    margin-left: 15px;
+}
+.nav-li:hover {
+    color:bisque;
+}
+.active {
+    color:bisque;
+}
+
+.log-lang {
+    display: flex;
+    
+}
+.login
+{
+    max-width:200px;
+    width: 100%;
+    font-size:20px ;
+    font-weight: normal;
+    color: black;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    border:none;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    
+}
+.login:hover {
+    background-color:peru;
+    color: white;
+}
+
+
+.flag {
+    max-width: 40px;
+    width:100%;
+    margin-right: 80px;
+    margin-left: 50px;
+    margin-top: 18px;
+
+}
+.flag1 {
+    max-width: 40px;
+    width: 100%;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: 9px;
+    display: flex;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+    max-width: 60px;
+    width: 100%;
+    margin-left:40px ;
+    z-index: 1;
+
+}
+/* footer style */
+
+.block1-footer{
+    display: inline-block;
+    margin-right: 198px;
+    vertical-align: top;
+    font-size: 17px;
+}
+.block2-footer{
+    display: inline-block;
+    margin-right: 198px;
+    vertical-align: top;
+    font-size: 17px;
+
+}
+.block3-footer{
+    display: inline-block;
+    margin-right: 198px;
+    vertical-align: top;
+    font-size: 17px;
+}
+.block4-footer{
+    display: inline-block;
+    margin-right: 198px;
+    vertical-align: top;
+    font-size: 17px;
+}
+.copyright{
+    text-align: right;
+}
+.container{
+    background-color: khaki;
+
+}
+.input[type=text], select {
+    /* width: 100%; */
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .find-bt {
+    font-size: 24px;
+    font-weight: normal;
+    color:sienna;
+    font-family: "BPG Nino Elite Caps", sans-serif;
+    max-width: 300px;
+    /* width: 100%; */
+    border: none;
+    background-color:cornsilk;
+    padding: 15px 32px;
+    border-radius: 8px;
+}
+.section-bg2{
+    background-image: url(../image/NoPath\ -\ Copy\ \(31\).jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title11{
+    font-size: 42px;
+    color: white;
+}
+.conteiner1{
+    max-width:1170px;
+    width: 100%;
+    margin:0 auto;
+
+}
+.block5{
+    width: 100px;
+    height: 700px;
+    /* background-color:sienna;  */
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+    flex-direction:column;
+    /* justify-content: space-between; */
+}
+
+.box-wraper1{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.container7{
+    width: 100%;
+    /* margin: 0 auto; */
+    background-color:navajowhite;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.instagram-icon{
+    font-size: 30px;
+    color: navy;
+}
+.image-icon::after{
+    content: '';
+    width: 1px;
+    height: 27px;
+    background-color: olive;
+    display: inline-block;
+}
